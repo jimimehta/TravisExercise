@@ -5,6 +5,7 @@ public class Order {
   public Order(String name, float price) {
     this.name = name;
     this.price = price;
+    System.out.print("Hello");
   }
 
   public String getName() {
